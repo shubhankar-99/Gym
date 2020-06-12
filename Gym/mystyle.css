@@ -1,0 +1,155 @@
+body{
+  font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+  margin:0px;
+  padding:0px;
+  background-size: cover;
+  color: #FFFFFF;
+  
+  background-image: url('https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  
+}
+.left{
+   display:inline-block;
+  position:absolute;
+  left: 60px;
+  top: 20px;
+  /*border: 2px solid green;*/
+  background:solid #000000;
+}
+.left img{
+  width:90px;
+  height:90px;
+  filter: invert(100%);
+  margin-left:11px;
+  
+}
+.left div{
+  text-align: center;
+  font-family: Impact;
+  line-height:19px;
+  font-size: 16px;
+  
+}
+.mid{
+  display:block;
+  width: 45%;
+  margin: 20px auto; /* all three property help to allign center*/
+  
+}
+
+.right{
+  display:inline-block;
+  position:absolute;
+  right: 34px;
+  top: 20px;
+ 
+  
+}
+.navbar{
+  display:inline-block;
+}
+.navbar li{
+  
+  display:inline-block; /* to keep everything inside navigation bar in a line*/
+  font-size: 20px;
+  
+}
+.navbar li a {
+  color: white; /* to give color white in navbar elements*/
+  text-decoration:none; /* to remove underline in the link*/
+  padding : 2px 10px;
+  
+}
+/* to mark the active links in the navbar*/
+.navbar li a:hover  {
+  text-decoration:underline;
+  color:grey;
+
+}
+.btn{
+  margin:0px 9px;
+  background-color:black;
+  color:#FFFFFF;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  font-size 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:900;
+  border-radius: 8px;
+  cursor: pointer;/* The mouse cursor changes to pointer */
+}
+
+.btn:hover{
+  background-color: #696969;
+}
+
+.main .container{
+  border: 2px solid #FFFFFF;
+  display:block;
+  margin: 120px 170px;
+  padding: 40px 75px;
+  width:39%;
+  border-radius:24px;
+  float:left;
+  margin-right:60px;
+  
+}
+
+.main .image {
+ 
+  margin-top:300px;
+  margin-left:120px;
+  
+  
+  float:left;
+  
+}
+.main .image img{
+  width:200px;
+  height:350px;
+}
+.container h1{
+ 
+  margin:auto;
+  margin-bottom:50px;
+  font-family: Impact;
+  
+  font-size:38px;
+}
+.form-group input{
+  display:block;
+  width:430px;
+  padding:14px;
+  border: 2px solid black;
+  margin: 3px auto;
+  margin-bottom:10px;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:bold;
+  
+}
+.container .btn{
+  display:block;
+  
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:40px;
+  font-size:25px;
+  padding:6px 14px;
+  width:250px;
+}
+
+.foot {
+  display:block;
+  color:black;
+  font-weight:bold;
+  text-align:center;
+  font-family: cursive;
+  width:100%;
+  background-color:#FFFFFF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
