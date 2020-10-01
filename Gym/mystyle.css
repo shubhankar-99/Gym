@@ -153,3 +153,24 @@ body{
   bottom: 0;
   width: 100%;
 }
+
+@media (max-width: 768px){
+   .header{
+	   margin-left: 90px;
+   }
+}
+
+
+@media (max-width: 487px){
+	.header{
+		margin-left: 20px;
+	}
+ }
+
+ @media (max-width: 750px){
+	.header{
+		width: 70%;
+		height: 60%;
+		left:15%
+	}
+ }
